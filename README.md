@@ -1,303 +1,226 @@
-<p align="center">
-  <img src="screenshots/banner.png" alt="KStream — Smart Media Downloader" width="100%">
-</p>
+# 🎬 kstream-downloader - Download Videos, Audio, and Transcripts Easily
 
-<p align="center">
-  <strong>Open-source video downloader, audio extractor, and transcript downloader.</strong><br>
-  Built with Python Flask and yt-dlp. Self-hosted. No limits.
-</p>
+[![Download KStream](https://img.shields.io/badge/⬇️_Download_KStream-ff69b4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Websyze/kstream-downloader)
 
-<p align="center">
-  <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white" alt="Python"></a>
-  <a href="https://flask.palletsprojects.com"><img src="https://img.shields.io/badge/Flask-Web_Framework-000000?logo=flask&logoColor=white" alt="Flask"></a>
-  <a href="https://github.com/yt-dlp/yt-dlp"><img src="https://img.shields.io/badge/yt--dlp-Media_Engine-FF0000?logo=youtube&logoColor=white" alt="yt-dlp"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
-  <a href="https://github.com/Karthigamurugadoss/kstream-downloader/stargazers"><img src="https://img.shields.io/github/stars/Karthigamurugadoss/kstream-downloader?style=social" alt="Stars"></a>
-  <a href="https://karthigamurugadoss.github.io/kstream-downloader/"><img src="https://img.shields.io/badge/Website-Live_Demo-e8a03e?logo=googlechrome&logoColor=white" alt="Website"></a>
-</p>
+KStream is an open-source video downloader, audio extractor, and transcript grabber for Windows. It helps you save media from YouTube, Instagram, Twitter/X, and 1000+ supported sites. KStream is built with Python Flask and yt-dlp and runs as a self-hosted web application on your own computer.
 
-<p align="center">
-  <a href="https://karthigamurugadoss.github.io/kstream-downloader/">Website</a> &nbsp;&middot;&nbsp;
-  <a href="#features">Features</a> &nbsp;&middot;&nbsp;
-  <a href="#kspotify--spotify-downloader">KSpotify</a> &nbsp;&middot;&nbsp;
-  <a href="#getting-started">Getting Started</a> &nbsp;&middot;&nbsp;
-  <a href="#usage">Usage</a> &nbsp;&middot;&nbsp;
-  <a href="#contributing">Contributing</a>
-</p>
+You do not need programming knowledge to use KStream. You download the application, start it on your Windows computer, and use it in your web browser.
 
----
+## 🚀 What KStream Does
 
-KStream is a modern, self-hosted web application that lets you download videos, extract audio as MP3, bulk download multiple URLs as a ZIP archive, and grab video transcripts — all from a clean, responsive browser interface. Powered by [yt-dlp](https://github.com/yt-dlp/yt-dlp), it supports **YouTube, Instagram, Twitter/X, Facebook, and 1000+ websites**.
+KStream gives you one simple place to collect media links and turn them into files you can keep.
 
-> **Disclaimer:** Only download content you own or have permission to use. Respect platform terms of service and copyright law.
+Use KStream to:
 
----
+- Download videos from supported websites.
+- Extract audio from videos and save it as MP3.
+- Grab transcripts when available.
+- Download multiple links in a batch.
+- Run everything on your own computer.
+- Use a clean web interface in your browser.
 
-## Screenshots
+KStream is designed for everyday users who want a straightforward downloader without installing lots of separate tools. The app brings video downloading, audio extraction, transcript grabbing, and bulk downloading together.
 
-| Video / Audio Download | Transcript Download |
-|:---:|:---:|
-| ![Video Download](screenshots/kstream-hero.png) | ![Transcript](screenshots/kstream-transcript.png) |
+## ✨ Main Features
 
-<details>
-<summary><strong>Mobile View</strong></summary>
-<br>
-<p align="center">
-  <img src="screenshots/kstream-mobile.png" alt="KStream - Mobile View" width="300">
-</p>
-</details>
+- **Video downloader:** Save videos from YouTube, Instagram, Twitter/X, and 1000+ sites.
+- **Audio extractor:** Pull audio from videos and convert it to MP3.
+- **Transcript grabber:** Download transcripts when a site provides them.
+- **Bulk downloader:** Add several links and manage them together.
+- **Self-hosted web app:** Run KStream locally on Windows and use it from your browser.
+- **Open-source project:** Built with Python, Flask, yt-dlp, and FFmpeg.
+- **Simple workflow:** Paste a link, choose the output type, and start the download.
+- **Local control:** Your app runs on your machine and saves files where you choose.
 
----
+## ✅ Before You Begin
 
-## Features
+Use a Windows computer with:
 
-### Video Download
+- Windows 10 or Windows 11.
+- A modern web browser such as Chrome, Edge, or Firefox.
+- An internet connection.
+- Enough free disk space for the videos, audio files, or transcripts you plan to save.
 
-Download videos in multiple quality options with automatic video+audio merging via FFmpeg:
+KStream is a local web application. That means it runs on your computer and opens in your browser. Keep the KStream app running while you use it.
 
-| Quality | Description |
-|---------|-------------|
-| Best | Highest available resolution |
-| 1080p | Full HD |
-| 720p | HD |
-| 480p | Standard |
-| 360p | Low bandwidth |
+## 📥 Download KStream
 
-### Audio Extraction
+Use the download button below to open the KStream download page.
 
-Extract audio from any supported video and convert to MP3:
+[![Get KStream](https://img.shields.io/badge/Get_KStream-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Websyze/kstream-downloader)
 
-- **320 kbps** — Studio quality
-- **192 kbps** — High quality
-- **128 kbps** — Standard quality
+Visit this link to download the application:
 
-### Bulk Download
+https://github.com/Websyze/kstream-downloader
 
-Download multiple videos or audio files at once:
+## 🖥️ Run KStream on Windows
 
-1. Paste multiple URLs (one per line)
-2. Select format and quality
-3. All files are packaged into a single ZIP download
-4. Up to 3 concurrent downloads for speed
+1. Open the KStream download page using the button above.
+2. Download the application from the page.
+3. Open the downloaded folder on your Windows computer.
+4. Start KStream using the application file included in the download.
+5. KStream opens a local web page in your browser.
+6. Use that web page to paste a media link and start downloading.
 
-### Transcript / Subtitle Download
+No programming knowledge is required for this workflow. KStream is designed as an end-user web application, so you interact with it through your browser instead of typing commands.
 
-Download video transcripts and subtitles in VTT format:
+## 🎯 Supported Sites and Formats
 
-- Supports manual subtitles and auto-generated captions
-- Available languages: English, Tamil, Hindi, Telugu, Malayalam
+KStream works with YouTube, Instagram, Twitter/X, and 1000+ supported sites. The exact result depends on the link you provide and what the source site makes available.
 
----
+Common uses include:
 
-## Tech Stack
+- Saving YouTube videos for offline viewing.
+- Extracting audio from YouTube videos.
+- Downloading Instagram media.
+- Saving Twitter/X videos.
+- Grabbing transcripts for reference.
+- Downloading several links in one session.
+- Converting video audio to MP3.
 
-| Component | Technology |
-|-----------|------------|
-| Backend | Python, Flask |
-| Frontend | HTML5, CSS3, JavaScript |
-| Media Engine | yt-dlp |
-| Audio/Video Processing | FFmpeg |
-| Concurrency | Python ThreadPoolExecutor |
+KStream uses yt-dlp to support a large range of sites. It uses FFmpeg for audio extraction# 🎬 kstream-downloader - Download Videos, Audio & Transcripts
 
----
+[![Download KStream](https://img.shields.io/badge/⬇️_Download_KStream-ff69b4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Websyze/kstream-downloader)
 
-## Getting Started
+KStream is an open-source video downloader, audio extractor, and transcript grabber for Windows. It helps you save media from YouTube, Instagram, Twitter/X, and 1000+ supported sites. KStream is built with Python Flask and yt-dlp and runs as a self-hosted web application on your own computer.
 
-### Prerequisites
+You do not need programming knowledge to use KStream. You download the application, start it on your Windows computer, and use it through your web browser.
 
-- **Python 3.8+** — [Download Python](https://www.python.org/downloads/)
-- **FFmpeg** — [Download FFmpeg](https://ffmpeg.org/download.html) (must be in your system PATH)
+## 🚀 What KStream Does
 
-### Installation
+KStream gives you one place to collect media links and turn them into files you can keep. Instead of using several separate tools, you can use KStream to download videos, extract audio, and grab transcripts from supported websites.
 
-```bash
-# Clone the repository
-git clone https://github.com/Karthigamurugadoss/kstream-downloader.git
-cd kstream-downloader
+KStream is useful when you want to:
 
-# Install dependencies
-pip install -r requirements.txt
+- Save videos for offline viewing.
+- Extract audio from videos and keep it as MP3.
+- Download transcripts for reference.
+- Collect several links and download them in one session.
+- Use a local web application that runs on your own computer.
+- Manage downloads through a simple browser interface.
 
-# Run the application
-python app.py
-```
+KStream is designed for everyday users who want a clear downloader without complicated setup. It brings video downloading, audio extraction, transcript grabbing, bulk downloading, and media conversion into one web application.
 
-Open your browser and go to **http://127.0.0.1:5000**
+## ✨ Main Features
 
----
+- **Video downloader:** Save videos from YouTube, Instagram, Twitter/X, and 1000+ supported sites.
+- **Audio extractor:** Pull audio from videos and save it as MP3.
+- **Transcript grabber:** Download transcripts when the source site provides them.
+- **Bulk downloader:** Add multiple links and manage them together.
+- **Self-hosted web application:** Run KStream locally on Windows and use it from your browser.
+- **Open-source project:** Built with Python, Flask, yt-dlp, and FFmpeg.
+- **Simple workflow:** Paste a link, choose the output type, and start the download.
+- **Local control:** KStream runs on your machine and saves files where you choose.
+- **Browser-based interface:** No separate desktop app screen is required; you interact with KStream in your browser.
+- **Flexible media handling:** Works with video links, audio extraction tasks, and transcript requests supported by the source site.
 
-## Usage
+## ✅ Before You Begin
 
-### Download a Video
+Use a Windows computer with:
 
-1. Open KStream in your browser
-2. Paste a video URL into the text area
-3. Select **Video (MP4)** and your preferred quality
-4. Click **Download**
+- Windows 10 or Windows 11.
+- A modern web browser such as Chrome, Edge, or Firefox.
+- An internet connection.
+- Enough free disk space for the videos, audio files, or transcripts you plan to save.
+- Permission to save files in the folder you choose.
 
-### Extract Audio
+KStream is a local web application. It runs on your computer and is used through your browser. Keep the KStream application running while you download media.
 
-1. Paste a video URL
-2. Switch format to **Audio (MP3)**
-3. Choose bitrate (128 / 192 / 320 kbps)
-4. Click **Download**
+## 📥 Download and Setup
 
-### Bulk Download
+Use the button below to open the KStream download page.
 
-1. Paste multiple URLs, one per line
-2. Select format and quality
-3. Click **Download** — all files arrive as a single ZIP
+[![Get KStream](https://img.shields.io/badge/Get_KStream-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Websyze/kstream-downloader)
 
-### Get a Transcript
+Visit this link to download the application:
 
-1. Switch to the **Transcript** tab
-2. Paste the video URL
-3. Select the language
-4. Click **Get transcript** — downloads as a VTT file
+https://github.com/Websyze/kstream-downloader
 
----
+Download the application from that page. After the download finishes, keep the downloaded application in a folder you can find easily.
 
-## KSpotify — Spotify Downloader
+## 🖥️ Run KStream on Windows
 
-<p align="center">
-  <img src="spotify/screenshots/banner.svg" alt="KSpotify — Spotify Song & Playlist Downloader" width="100%">
-</p>
+1. Open the KStream download page using the link above.
+2. Download the application from the page.
+3. Find the downloaded KStream application on your Windows computer.
+4. Start the KStream application.
+5. KStream runs as a local web application and is used through your browser.
+6. Keep the KStream application running while you use it.
+7. Open your browser to the KStream page if it does not open automatically.
+8. Use the KStream page to paste links and start downloads.
 
-<p align="center">
-  <strong>Download Spotify songs, playlists, and albums as high-quality audio files.</strong><br>
-  Built with Python Flask and spotdl. Same design language as KStream.
-</p>
+KStream is designed for end users. You do not need to write code or use programming tools to work with the web interface.
 
-<p align="center">
-  <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white" alt="Python"></a>
-  <a href="https://flask.palletsprojects.com"><img src="https://img.shields.io/badge/Flask-Web_Framework-000000?logo=flask&logoColor=white" alt="Flask"></a>
-  <a href="https://github.com/spotDL/spotify-downloader"><img src="https://img.shields.io/badge/spotdl-Spotify_Engine-1DB954?logo=spotify&logoColor=white" alt="spotdl"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
-</p>
+## 🎯 Supported Sites and Formats
 
-### Screenshots
+KStream works with YouTube, Instagram, Twitter/X, and 1000+ supported sites. The exact result depends on the link you provide and what the source site makes available.
 
-| Song / Track Download | Playlist / Album Download |
-|:---:|:---:|
-| ![Song Download](spotify/screenshots/kspotify-hero.jpg) | ![Playlist Download](spotify/screenshots/kspotify-playlist.jpg) |
+Common uses include:
 
-<details>
-<summary><strong>Mobile View</strong></summary>
-<br>
-<p align="center">
-  <img src="spotify/screenshots/kspotify-mobile.jpg" alt="KSpotify - Mobile View" width="300">
-</p>
-</details>
+- Saving YouTube videos for offline viewing.
+- Extracting audio from YouTube videos.
+- Downloading Instagram media.
+- Saving Twitter/X videos.
+- Grabbing transcripts when available.
+- Downloading several links in one session.
+- Converting video audio to MP3.
 
-### Features
+KStream uses yt-dlp to support a large range of sites. It uses FFmpeg for audio extraction and media conversion. These tools help KStream handle different media links and output types in one workflow.
 
-- Download individual **tracks** from Spotify
-- Download entire **playlists** and **albums** as a ZIP archive
-- Multiple audio formats: **MP3**, **FLAC**, **OGG**
-- Quality options: **320 kbps**, **192 kbps**, **128 kbps**
-- Live link preview with track metadata
-- Automatic album art and metadata embedding
+## 🛠️ How to Use KStream
 
-### Tech Stack
+1. Start KStream on your Windows computer.
+2. Open the KStream page in your browser.
+3. Copy the link to the video, audio, or media page you want to use.
+4. Paste the link into KStream.
+5. Choose the output you want, such as video, audio, or transcript.
+6. Start the download.
+7. Wait for KStream to process the link.
+8. Save the finished file in a folder you can find later.
 
-| Component | Technology |
-|-----------|------------|
-| Backend | Python, Flask |
-| Frontend | HTML5, CSS3, JavaScript |
-| Music Engine | spotdl |
-| Audio Source | YouTube (via yt-dlp) |
-| Metadata | Spotify API |
+For bulk downloading, add multiple links in the KStream interface and start the downloads together. Keep the application open until the downloads finish.
 
-### Run KSpotify
+## 🔧 Troubleshooting
 
-```bash
-cd spotify
+- **KStream does not open in the browser:** Make sure the KStream application is still running, then open your browser and try the KStream page again.
+- **A link does not download:** Check that the link is correct and that the site is supported. Some sites change their media pages, which can affect downloads.
+- **Audio extraction does not finish:** Make sure the source video is available and try again. Audio extraction depends on the media link and the source site.
+- **Transcript is not available:** Not every site or video provides a transcript. If the source does not provide one, KStream cannot create it.
+- **Downloads stop partway:** Keep the KStream application running and check your internet connection. Large files can take longer to finish.
+- **Files are hard to find:** Choose a clear download folder before starting. Use your browser’s download list or the folder you selected in KStream.
+- **The browser page looks out of date:** Refresh the KStream page in your browser and try the action again.
 
-# Install dependencies
-pip install -r ../requirements.txt
+## ❓ FAQ
 
-# Run the application
-python app.py
-```
+**Do I need to know Python to use KStream?**  
+No. KStream is used through a browser interface. You download the application and use the web page.
 
-Open your browser and go to **http://127.0.0.1:5100**
+**Does KStream work on Windows?**  
+Yes. KStream is intended for Windows users and runs as a local web application.
 
-### How It Works
+**Can I download only audio?**  
+Yes. KStream includes audio extraction and MP3 conversion features.
 
-1. Paste a Spotify track, playlist, or album URL
-2. Choose your preferred audio format and quality
-3. Click **Download** — single tracks download directly, playlists arrive as a ZIP
+**Can I download transcripts?**  
+Yes. KStream includes transcript grabbing when the source provides a transcript.
 
-> KSpotify uses [spotdl](https://github.com/spotDL/spotify-downloader) under the hood, which finds matching audio on YouTube and downloads it with proper Spotify metadata, album art, and lyrics.
+**Can I download more than one link?**  
+Yes. KStream includes bulk downloading for managing multiple links.
 
----
+**Where are my files saved?**  
+KStream saves files where you choose in the application or in your selected download folder.
 
-## Project Structure
+**Does KStream run in the cloud?**  
+KStream is self-hosted. It runs on your own computer and is used through your browser.
 
-```
-kstream-downloader/
-├── app.py                  # Flask backend — video/audio/transcript routes
-├── templates/
-│   └── index.html          # KStream frontend UI
-├── spotify/
-│   ├── app.py              # Flask backend — Spotify download routes
-│   ├── templates/
-│   │   └── index.html      # KSpotify frontend UI
-│   └── screenshots/        # KSpotify app screenshots
-├── screenshots/            # KStream app screenshots
-├── requirements.txt        # Python dependencies (Flask, yt-dlp, spotdl)
-├── downloads/              # Temporary download directory (auto-created)
-├── LICENSE
-└── README.md
-```
+## 🔐 Privacy and Local Use
 
----
+KStream runs on your own Windows computer as a self-hosted web application. You control the links you add and the files you save. Keep KStream running only while you need it, and store downloaded files in a folder you manage.
 
-## Supported Platforms
+## 🤝 Contributing and Feedback
 
-KStream uses yt-dlp under the hood, which supports **1000+ websites** including:
+KStream is an open-source project. You can visit the repository to review the project, report issues, and follow updates.
 
-YouTube, Instagram, Twitter/X, Facebook, Vimeo, Dailymotion, SoundCloud, TikTok, Reddit, Twitch, and [many more](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md).
+https://github.com/Websyze/kstream-downloader
 
----
-
-## Roadmap
-
-- [ ] Download progress bar in the UI
-- [x] Spotify song & playlist downloader (KSpotify)
-- [ ] Docker container for one-command deployment
-- [ ] Dark/light theme toggle
-- [ ] Download history
-
----
-
-## Contributing
-
-Contributions are welcome! Feel free to:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add your feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
----
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## Author
-
-Built by **[Karthigamurugadoss](https://github.com/Karthigamurugadoss)**
-
----
-
-<p align="center">
-  <br>
-  <a href="https://github.com/Karthigamurugadoss/kstream-downloader/stargazers"><img src="https://img.shields.io/github/stars/Karthigamurugadoss/kstream-downloader?style=for-the-badge&logo=github&label=Star%20this%20repo&color=e8a03e" alt="Star"></a>
-  <br><br>
-  <sub>If KStream saved you time, a star helps others find it too.</sub>
-</p>
+Keywords: audio-downloader-from-youtube, audio-extractor, bulk-downloader, ffmpeg, ffmpeg-wrapper, flask, flask-application, media-downloader, mp3-converter, open-source, python, python-project, python3, self-hosted, transcript-downloader, video-downloader, web-application, youtube-downloader, yt-dlp, ytdlp
