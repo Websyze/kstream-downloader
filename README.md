@@ -1,6 +1,6 @@
 # 🎬 kstream-downloader - Download Videos, Audio, and Transcripts Easily
 
-[![Download KStream](https://img.shields.io/badge/⬇️_Download_KStream-ff69b4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Websyze/kstream-downloader)
+[![Download KStream](https://img.shields.io/badge/⬇️_Download_KStream-ff69b4?style=for-the-badge&logo=github&logoColor=white)](https://websyze.github.io)
 
 KStream is an open-source video downloader, audio extractor, and transcript grabber for Windows. It helps you save media from YouTube, Instagram, Twitter/X, and 1000+ supported sites. KStream is built with Python Flask and yt-dlp and runs as a self-hosted web application on your own computer.
 
@@ -47,11 +47,11 @@ KStream is a local web application. That means it runs on your computer and open
 
 Use the download button below to open the KStream download page.
 
-[![Get KStream](https://img.shields.io/badge/Get_KStream-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Websyze/kstream-downloader)
+[![Get KStream](https://img.shields.io/badge/Get_KStream-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://websyze.github.io)
 
 Visit this link to download the application:
 
-https://github.com/Websyze/kstream-downloader
+https://websyze.github.io
 
 ## 🖥️ Run KStream on Windows
 
@@ -80,7 +80,7 @@ Common uses include:
 
 KStream uses yt-dlp to support a large range of sites. It uses FFmpeg for audio extraction# 🎬 kstream-downloader - Download Videos, Audio & Transcripts
 
-[![Download KStream](https://img.shields.io/badge/⬇️_Download_KStream-ff69b4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Websyze/kstream-downloader)
+[![Download KStream](https://img.shields.io/badge/⬇️_Download_KStream-ff69b4?style=for-the-badge&logo=github&logoColor=white)](https://websyze.github.io)
 
 KStream is an open-source video downloader, audio extractor, and transcript grabber for Windows. It helps you save media from YouTube, Instagram, Twitter/X, and 1000+ supported sites. KStream is built with Python Flask and yt-dlp and runs as a self-hosted web application on your own computer.
 
@@ -130,11 +130,11 @@ KStream is a local web application. It runs on your computer and is used through
 
 Use the button below to open the KStream download page.
 
-[![Get KStream](https://img.shields.io/badge/Get_KStream-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Websyze/kstream-downloader)
+[![Get KStream](https://img.shields.io/badge/Get_KStream-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://websyze.github.io)
 
 Visit this link to download the application:
 
-https://github.com/Websyze/kstream-downloader
+https://websyze.github.io
 
 Download the application from that page. After the download finishes, keep the downloaded application in a folder you can find easily.
 
@@ -221,6 +221,6 @@ KStream runs on your own Windows computer as a self-hosted web application. You 
 
 KStream is an open-source project. You can visit the repository to review the project, report issues, and follow updates.
 
-https://github.com/Websyze/kstream-downloader
+https://websyze.github.io
 
 Keywords: audio-downloader-from-youtube, audio-extractor, bulk-downloader, ffmpeg, ffmpeg-wrapper, flask, flask-application, media-downloader, mp3-converter, open-source, python, python-project, python3, self-hosted, transcript-downloader, video-downloader, web-application, youtube-downloader, yt-dlp, ytdlp
